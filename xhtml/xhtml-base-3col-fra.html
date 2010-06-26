@@ -6,13 +6,13 @@
 	<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
 
-	<!-- GC WEB TEMPLATE | MODELE DE PAGE WEB DU GC
+	<!-- WEB EXPERIENCE TEMPLATE (WET) | BOITE A OUTILS DE L'EXPERIENCE WEB (BOEW) 
 	TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 	-->
 
 	<!-- TITLE BEGINS | DEBUT DU TITRE -->
-	<title>Version 2.0 du mod&eacute;le de page Web du GC - 2 colonnes - Th&egrave;me base</title>
+	<title>Version 2.0 du mod&eacute;le de page Web du GC - 3 colonnes - Th&egrave;me base</title>
 	<!-- TITLE ENDS | FIN DU TITRE -->
 	
 	<!-- METADATA BEGINS | DEBUT DES METADONNEES -->
@@ -59,8 +59,8 @@
 	<!-- TEMPLATE PRINT CSS ENDS | FIN DU CSS DU MODELE DE PAGE POUR L'IMPRESSION -->
 </head>
 <body>
-<!-- TWO COLUMN LAYOUT BEGINS | DEBUT DE LA MISE EN PAGE DE DEUX COLONNES -->
-<div id="cn-body-inner-2col">
+<!-- THREE COLUMN LAYOUT BEGINS | DEBUT DE LA MISE EN PAGE DE TROIS COLONNES -->
+<div id="cn-body-inner-3col">
 	<!-- SKIP HEADER BEGINS | DEBUT DU SAUT DE L'EN-TETE -->
 	<div id="cn-skip-head">
 		<ul id="cn-tphp">
@@ -106,7 +106,6 @@
 
 <!-- base THEME BEGINS | DEBUT DU THEME base -->
 		<p>Contient normalement le contenu principal de la page et la date de la derni&egrave;re modification.</p>
-
 			<h2>Valeurs implicites importantes</h2>
 			<p><strong>Nota&nbsp;:</strong> Les valeurs implicites sont pour le th&egrave;me base et pas pour le th&egrave; actuel.</p>
 			<dl lang="en" xml:lang="en">
@@ -119,9 +118,9 @@
 				<dt><code>cn-centre-col-inner</code>&nbsp;:</dt>
 				<dd>
 					<ul>
-						<li><code>margin-right: 0</code></li>
-						<li><code>margin-left: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
-						<li><code>padding-right: 0</code></li>
+						<li><code>margin-right: 25%</code> (<span lang="fr" xml:lang="fr">doit &eacute;galer la largeur</span> <code>cn-right-col</code>)</li>
+						<li><code>margin-left: 25%</code> (<span lang="fr" xml:lang="fr">doit &eacute;galer la largeur</span> <code>cn-left-col</code>)</li>
+						<li><code>padding-right: 10px</code></li>
 						<li><code>padding-left: 10px</code></li>
 					</ul>
 				</dd>
@@ -174,6 +173,43 @@
 <!-- base THEME ENDS | FIN DU THEME base -->
 	</div></div>
 	<!-- PRIMARY NAVIGATION (LEFT COLUMN) ENDS | FIN DE LA NAVIGATION PRINCIPALE (COLONNE GAUCHE) -->
+
+	<!-- SECONDARY NAVIGATION (RIGHT COLUMN) BEGINS | DEBUT DE LA NAVIGATION SECONDAIRE (COLONNE DROITE) -->
+	<div id="cn-right-col-gap"></div>
+	<div id="cn-right-col"><div id="cn-right-col-inner">
+		<h2>Navigation secondaire (colonne droite)</h2>
+<!-- base THEME BEGINS | DEBUT DU THEME base -->
+			<h3>Navigation secondaire (base)</h3>
+			<p>Contient normalement le contenu et les liens en vedettes</p>
+	
+				<h4>Valeurs implicites importantes</h4>
+				<p><strong>Nota&nbsp;:</strong> Les valeurs implicites sont pour le th&egrave;me base et pas pour le th&egrave; actuel.</p>
+				<dl lang="en" xml:lang="en">
+				<dt><code>cn-right-col</code>&nbsp;:</dt>
+				<dd>
+					<ul>
+					<li><code>width: 25%</code></li>
+					<li><code>background: #FFF</code></li>
+					</ul>
+				</dd>
+				<dt><code>cn-right-col-inner</code>&nbsp;:</dt>
+				<dd>
+					<ul>
+					<li><code>margin</code>: 0</li>
+					<li><code>padding</code>: 0</li>
+					</ul>
+				</dd>
+				<dt><code>cn-right-col-gap</code> (l'&eacute;cart entre la colonne et le pied de page)&nbsp;:</dt>
+				<dd>
+					<ul>
+					<li><code>width: 25%</code> (<span lang="fr" xml:lang="fr">doit &eacute;galer la largeur</span> <code>cn-right-col</code>)</li>
+					<li><code>background: #FFF</code></li>
+					</ul>
+				</dd>
+				</dl>
+<!-- base THEME ENDS | FIN DU THEME base -->
+	</div></div>
+	<!-- SECONDARY NAVIGATION (RIGHT COLUMN) ENDS | FIN DE LA NAVIGATION SECONDAIRE (COLONNE DROITE) -->
 	</div>
 
 	<!-- FOOTER BEGINS | DEBUT DU PIED DE PAGE --> 
@@ -203,6 +239,6 @@
 	<!-- FOOTER ENDS | FIN DU PIED DE PAGE -->
 	<!-- NAVIGATION ENDS | FIN DE LA NAVIGATION -->
 </div>
-<!-- TWO COLUMN LAYOUT ENDS | FIN DE LA MISE EN PAGE DE DEUX COLONNES -->
+<!-- THREE COLUMN LAYOUT ENDS | FIN DE LA MISE EN PAGE DE TROIS COLONNES -->
 </body>
 </html>

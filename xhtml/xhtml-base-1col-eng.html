@@ -6,13 +6,13 @@
 	<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
 
-	<!-- GC WEB TEMPLATE | MODELE DE PAGE WEB DU GC
+	<!-- WEB EXPERIENCE TEMPLATE (WET) | BOITE A OUTILS DE L'EXPERIENCE WEB (BOEW) 
 	TERMS AND CONDITIONS OF USE: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	CONDITIONS REGISSANT L'UTILISATION : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 	-->
 
 	<!-- TITLE BEGINS | DEBUT DU TITRE -->
-	<title>GC Web Template v2.0 - 3 column layout - Base theme</title>
+	<title>GC Web Template v2.0 - 1 column layout - Base theme</title>
 	<!-- TITLE ENDS | FIN DU TITRE -->
 	
 	<!-- METADATA BEGINS | DEBUT DES METADONNEES -->
@@ -59,8 +59,8 @@
 	<!-- TEMPLATE PRINT CSS ENDS | FIN DU CSS DU MODELE DE PAGE POUR L'IMPRESSION -->
 </head>
 <body>
-<!-- THREE COLUMN LAYOUT BEGINS | DEBUT DE LA MISE EN PAGE DE TROIS COLONNES -->
-<div id="cn-body-inner-3col">
+<!-- ONE COLUMN LAYOUT BEGINS | DEBUT DE LA MISE EN PAGE DE D'UNE COLONNE -->
+<div id="cn-body-inner-1col">
 	<!-- SKIP HEADER BEGINS | DEBUT DU SAUT DE L'EN-TETE -->
 	<div id="cn-skip-head">
 		<ul id="cn-tphp">
@@ -98,7 +98,6 @@
 
 	<div id="cn-cols">
 	<!-- MAIN CONTENT BEGINS | DEBUT DU CONTENU PRINCIPAL --> 
-	<div id="cn-centre-col-gap"></div>
 	<div id="cn-centre-col"><div id="cn-centre-col-inner">
 		<!-- CONTENT TITLE BEGINS | DEBUT DU TITRE DU CONTENU -->
 		<h1 id="cn-cont">Main content area (Base)</h1>
@@ -118,102 +117,20 @@
 				<dt><code>cn-centre-col-inner</code>:</dt>
 				<dd>
 					<ul>
-						<li><code>margin-right: 25%</code> (must equal the <code>cn-right-col</code> width)</li>
-						<li><code>margin-left: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
-						<li><code>padding-right: 10px</code></li>
-						<li><code>padding-left: 10px</code></li>
-					</ul>
-				</dd>
-				<dt><code>cn-centre-col-gap</code> (gap between the column and the footer):</dt>
-				<dd>
-					<ul>
-					<li><code>background: #FFF</code></li>
+						<li><code>margin: 0</code></li>
+						<li><code>padding: 0</code></li>
 					</ul>
 				</dd>
 			</dl>
 <!-- base THEME ENDS | FIN DU THEME base -->
 	</div></div>
 	<!-- MAIN CONTENT ENDS | FIN DU CONTENU PRINCIPAL --> 
-
-	<!-- NAVIGATION BEGINS | DEBUT DE LA NAVIGATION -->
-	<!-- PRIMARY NAVIGATION (LEFT COLUMN) BEGINS | DEBUT DE LA NAVIGATION PRINCIPALE (COLONNE GAUCHE) -->
-	<div id="cn-left-col-gap"></div>
-	<div id="cn-left-col"><div id="cn-left-col-inner">
-		<h2 id="cn-nav">Primary navigation (left column)</h2>
-<!-- base THEME BEGINS | DEBUT DU THEME base -->
-				<h3>Primary navigation (Base)</h3>
-				<p>Normally contains a search field and navigation links</p>
-
-					<h4>Important default values</h4>
-					<p><strong>Note:</strong> Default values are for the base theme and not the current theme.</p>
-					<dl>
-					<dt><code>cn-left-col</code>:</dt>
-					<dd>
-						<ul>
-						<li><code>width: 25%</code></li>
-						<li><code>margin-right: -25%</code> (must equal the negative of the <code>cn-left-col</code> width)</li>
-						<li><code>background: #FFF</code></li>
-						</ul>
-					</dd>
-					<dt><code>cn-left-col-inner</code>:</dt>
-					<dd>
-						<ul>
-						<li><code>margin: 0</code></li>
-						<li><code>padding: 0</code></li>
-						</ul>
-					</dd>
-					<dt><code>cn-left-col-gap</code> (gap between the column and the footer):</dt>
-					<dd> 
-						<ul>
-						<li><code>width: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
-						<li><code>background: #FFF</code></li>
-						</ul>
-					</dd>
-					</dl>
-<!-- base THEME ENDS | FIN DU THEME base -->
-	</div></div>
-	<!-- PRIMARY NAVIGATION (LEFT COLUMN) ENDS | FIN DE LA NAVIGATION PRINCIPALE (COLONNE GAUCHE) -->
-
-	<!-- SECONDARY NAVIGATION (RIGHT COLUMN) BEGINS | DEBUT DE LA NAVIGATION SECONDAIRE (COLONNE DROITE) -->
-	<div id="cn-right-col-gap"></div>
-	<div id="cn-right-col"><div id="cn-right-col-inner">
-		<h2>Secondary navigation (right column)</h2>
-<!-- base THEME BEGINS | DEBUT DU THEME base -->
-			<h3>Secondary navigation (Base)</h3>
-			<p>Normally contains featured content and links</p>
-				<h4>Important default values</h4>
-				<p><strong>Note:</strong> Default values are for the base theme and not the current theme.</p>
-				<dl>
-				<dt><code>cn-right-col</code>:</dt>
-				<dd>
-					<ul>
-					<li><code>width: 25%</code></li>
-					<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-				<dt><code>cn-right-col-inner</code>:</dt>
-				<dd>
-					<ul>
-					<li><code>margin</code>: 0</li>
-					<li><code>padding</code>: 0</li>
-					</ul>
-				</dd>
-				<dt><code>cn-right-col-gap</code> (gap between the column and the footer):</dt>
-				<dd>
-					<ul>
-					<li><code>width: 25%</code> (must equal the <code>cn-right-col</code> width)</li>
-					<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-				</dl>
-<!-- base THEME ENDS | FIN DU THEME base -->
-	</div></div>
-	<!-- SECONDARY NAVIGATION (RIGHT COLUMN) ENDS | FIN DE LA NAVIGATION SECONDAIRE (COLONNE DROITE) -->
 	</div>
 
+	<!-- NAVIGATION BEGINS | DEBUT DE LA NAVIGATION -->
 	<!-- FOOTER BEGINS | DEBUT DU PIED DE PAGE --> 
 	<div id="cn-foot"><div id="cn-foot-inner">
-		<h2>Footer</h2>
+		<h2 id="cn-nav">Footer</h2>
 <!-- base THEME BEGINS | DEBUT DU THEME base -->
 		<h3>Footer (Base)</h3>
 		<h4>Important default values</h4>
@@ -238,6 +155,6 @@
 	<!-- FOOTER ENDS | FIN DU PIED DE PAGE -->
 	<!-- NAVIGATION ENDS | FIN DE LA NAVIGATION -->
 </div>
-<!-- THREE COLUMN LAYOUT ENDS | FIN DE LA MISE EN PAGE DE TROIS COLONNES -->
+<!-- ONE COLUMN LAYOUT ENDS | FIN DE LA MISE EN PAGE D'UNE COLONNE -->
 </body>
 </html>
