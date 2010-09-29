@@ -12,7 +12,7 @@
 	-->
 
 	<!-- Title begins / Début du titre -->
-	<title>2 column layout - Base theme - XHTML 1.0 Strict - Web Experience Toolkit (WET)</title>
+	<title>2 column layout with navigation on the right - Base theme - XHTML 1.0 Strict - Web Experience Toolkit (WET)</title>
 	<!-- Title ends / Fin du titre -->
 	
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
@@ -63,7 +63,7 @@
 </head>
 <body>
 <!-- Two column layout begins / Début de la mise en page de deux colonnes -->
-<div id="cn-body-inner-2col">
+<div id="cn-body-inner-2col-right">
 	<!-- Skip header begins / Début du saut de l'en-tête -->
 	<div id="cn-skip-head">
 		<ul id="cn-tphp">
@@ -75,20 +75,7 @@
 
 	<!-- Header begins / Début de l'en-tête -->
 	<div id="cn-head"><div id="cn-head-inner">
-<!-- base theme begins / Début du thème base -->
-		<h2>Header (Base)</h2>
-
-		<h3>Important default values</h3>
-		<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
-		<dl>
-			<dt><code>cn-head</code>:</dt>
-			<dd>
-				<ul>
-					<li><code>background: #FFF</code></li>
-				</ul>
-			</dd>
-		</dl>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:header -->
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
 
@@ -100,87 +87,27 @@
 		<h1 id="cn-cont">Main content area (Base)</h1>
 		<!-- Content Title ends / Fin du titre du contenu -->
 
-<!-- base theme begins / Début du thème base -->
-		<p>Normally contains the main content of the page and the date the content was last modified.</p>
-
-			<h2>Important default values</h2>
-			<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
-			<dl>
-				<dt><code>cn-centre-col-inner</code>:</dt>
-				<dd>
-					<ul>
-						<li><code>margin-left: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
-						<li><code>padding: 1px 5px;</code></li>
-						<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-				<dt><code>cn-centre-col-gap</code> (gap between the column and the footer):</dt>
-				<dd>
-					<ul>
-						<li><code>width: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
-						<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-			</dl>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:content -->
 	</div></div>
 	<!-- Main content ends / Fin du contenu principal --> 
 
-	<!-- Primary navigation (left column) ends / Fin de la navigation principale (colonne gauche) -->
-	<div id="cn-left-col-gap"></div>
-	<div id="cn-left-col"><div id="cn-left-col-inner">
-		<h2 id="cn-nav">Primary navigation (left column)</h2>
-		<div class="cn-left-col-default">
-<!-- base theme begins / Début du thème base -->
-				<h3>Primary navigation (Base)</h3>
-				<p>Normally contains a search field and navigation links</p>
-
-					<h4>Important default values</h4>
-					<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
-					<dl>
-					<dt><code>cn-left-col</code>:</dt>
-					<dd>
-						<ul>
-							<li><code>width: 25%</code></li>
-							<li><code>margin-right: -25%</code> (must equal the negative of the <code>cn-left-col</code> width)</li>
-						</ul>
-					</dd>
-					<dt><code>cn-left-col-inner</code>:</dt>
-					<dd>
-						<ul>
-							<li><code>background: #FFF</code></li>
-						</ul>
-					</dd>
-					<dt><code>cn-left-col-gap</code> (gap between the column and the footer):</dt>
-					<dd> 
-						<ul>
-							<li><code>width: 25%</code> (must equal the <code>cn-left-col</code> width)</li>
-							<li><code>background: #FFF</code></li>
-						</ul>
-					</dd>
-					</dl>
-<!-- base theme ends / Fin du thème base -->
+	<!-- Primary navigation (right column) ends / Fin de la navigation principale (colonne droite) -->
+	<div id="cn-rightcol-gap"></div>
+	<div id="cn-right-col"><div id="cn-right-col-inner">
+		<h2 id="cn-nav">Primary navigation (right column)</h2>
+		<div class="cn-right-col-default">
+<!-- include:rightcol-prenav -->
+<!-- include:rightcol-nav -->
+<!-- include:rightcol-postnav -->
 		</div>
 	</div></div>
-	<!-- Primary navigation (left column) ends / Fin de la navigation principale (colonne gauche) -->
+	<!-- Primary navigation (right column) ends / Fin de la navigation principale (colonne droite) -->
 	</div>
 
 	<!-- Footer begins / Début du pied de page --> 
 	<div id="cn-foot"><div id="cn-foot-inner">
 		<h2>Footer</h2>
-<!-- base theme begins / Début du thème base -->
-		<h3>Footer (Base)</h3>
-		<h4>Important default values</h4>
-		<p><strong>Note:</strong> Default values are for the base CSS and not the current theme.</p>
-		<dl>
-			<dt><code>cn-foot</code>:</dt>
-			<dd>
-				<ul>
-					<li><code>background: #FFF</code></li>
-				</ul>
-			</dd>
-		</dl>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:footer -->
 	</div></div>
 	<!-- Footer ends / Fin du pied de page -->
 </div>

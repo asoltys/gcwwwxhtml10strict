@@ -1,18 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/" />
 	<link rel="schema.dcterms" href="http://purl.org/dc/terms/" />
 
-	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+	<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW) 
 	Terms and conditions of use: http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Terms
 	Conditions régissant l'utilisation : http://tbs-sct.ircan.gc.ca/projects/gcwwwtemplates/wiki/Conditions
 	-->
 
 	<!-- Title begins / Début du titre -->
-	<title>1 colonne - Thème base - XHTML 1.0 Strict - Boîte à outils de l'expérience Web (BOEW)</title>
+	<title>2 column layout - Base theme - XHTML 1.0 Strict - Web Experience Toolkit (WET)</title>
 	<!-- Title ends / Fin du titre -->
 	
 	<!-- Favicon (optional) begins / Début du favicon (optionnel) -->
@@ -20,16 +20,16 @@
 	<!-- Favicon (optional) ends / Find du favicon (optionnel) -->
 	
 	<!-- Meta-data begins / Début des métadonnées -->
-	<meta name="dcterms.description" content="French description / Description en français" />
-	<meta name="description" content="French description / Description en français" />
-	<meta name="keywords" content="French keywords / Mots-clés en français" />
-	<meta name="dcterms.creator" content="French name of the content author / Nom en français de l'auteur du contenu" />
-	<meta name="dcterms.title" content="French title / Titre en français" />
+	<meta name="dcterms.description" content="English description / Description en anglais" />
+	<meta name="description" content="English description / Description en anglais" />
+	<meta name="keywords" content="English keywords / Mots-clés en anglais" />
+	<meta name="dcterms.creator" content="English name of the content author / Nom en anglais de l'auteur du contenu" />
+	<meta name="dcterms.title" content="English title / Titre en anglais" />
 	<meta name="dcterms.issued" content="Date published (YYYY-MM-DD-W3CDTF) / Date de publication (AAAA-MM-JJ-W3CDTF)" />
 	<meta name="dcterms.modified" content="Date modified (YYYY-MM-DD-W3CDTF) / Date de modification (AAAA-MM-JJ-W3CDTF)" />
-	<meta name="dcterms.subject" content="French subject terms / Termes de sujet en français;-scheme" />
-	<meta name="dcterms.language" content="fra-ISO639-2" />
-	<meta name="dc.language" content="fra" />
+	<meta name="dcterms.subject" content="English subject terms / Termes de sujet en anglais;-scheme" />
+	<meta name="dcterms.language" content="eng-ISO639-2" />
+	<meta name="dc.language" content="eng" />
 	<!-- Meta-data ends / Fin des métadonnées -->
 
 	<!-- WET scripts/CSS begin / Début des scripts/CSS de la BOEW --><!--[if IE 6]><![endif]-->
@@ -62,81 +62,55 @@
 	<!-- WET print CSS ends / Fin du CSS de la BOEW pour l'impression -->
 </head>
 <body>
-<!-- One column layout begins / Début de la mise en page d'une colonne -->
-<div id="cn-body-inner-1col">
+<!-- Two column layout begins / Début de la mise en page de deux colonnes -->
+<div id="cn-body-inner-2col">
 	<!-- Skip header begins / Début du saut de l'en-tête -->
 	<div id="cn-skip-head">
 		<ul id="cn-tphp">
-			<li id="cn-sh-link-1"><a href="#cn-cont">Passer au contenu principal</a></li>
-			<li id="cn-sh-link-2"><a href="#cn-nav">Passer au pied de page</a></li>
+			<li id="cn-sh-link-1"><a href="#cn-cont">Skip to main content</a></li>
+			<li id="cn-sh-link-2"><a href="#cn-nav">Skip to primary navigation</a></li>
 		</ul>
 	</div>
 	<!-- Skip header ends / Fin du saut de l'en-tête -->
 
 	<!-- Header begins / Début de l'en-tête -->
 	<div id="cn-head"><div id="cn-head-inner">
-<!-- base theme begins / Début du thème base -->
-		<h2>En-tête (base)</h2>
-
-		<h3>Valeurs implicites importantes</h3>
-		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-		<dl lang="en" xml:lang="en">
-			<dt><code>cn-head</code>&#160;:</dt>
-			<dd>
-				<ul>
-					<li><code>background: #FFF</code></li>
-				</ul>
-			</dd>
-		</dl>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:header -->
 	</div></div>
 	<!-- Header ends / Fin de l'en-tête -->
 
 	<div id="cn-cols">
 	<!-- Main content begins / Début du contenu principal --> 
+	<div id="cn-centre-col-gap"></div>
 	<div id="cn-centre-col"><div id="cn-centre-col-inner">
 		<!-- Content title begins / Début du titre du contenu -->
-		<h1 id="cn-cont">Zone de contenu principale (base)</h1>
+		<h1 id="cn-cont">Main content area (Base)</h1>
 		<!-- Content Title ends / Fin du titre du contenu -->
 
-<!-- base theme begins / Début du thème base -->
-		<p>Contient normalement le contenu principal de la page et la date de la dernière modification.</p>
-
-			<h2>Valeurs implicites importantes</h2>
-			<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-			<dl lang="en" xml:lang="en">
-				<dt><code>cn-centre-col-inner</code>&#160;:</dt>
-				<dd>
-					<ul>
-						<li><code>padding: 1px 5px;</code></li>
-						<li><code>background: #FFF</code></li>
-					</ul>
-				</dd>
-			</dl>
-<!-- base theme ends / Fin du thème base -->
+<!-- include:content -->
 	</div></div>
 	<!-- Main content ends / Fin du contenu principal --> 
+
+	<!-- Primary navigation (left column) ends / Fin de la navigation principale (colonne gauche) -->
+	<div id="cn-left-col-gap"></div>
+	<div id="cn-left-col"><div id="cn-left-col-inner">
+		<h2 id="cn-nav">Primary navigation (left column)</h2>
+		<div class="cn-left-col-default">
+<!-- include:leftcol-prenav -->
+<!-- include:leftcol-nav -->
+<!-- include:leftcol-postnav -->
+		</div>
+	</div></div>
+	<!-- Primary navigation (left column) ends / Fin de la navigation principale (colonne gauche) -->
 	</div>
 
 	<!-- Footer begins / Début du pied de page --> 
 	<div id="cn-foot"><div id="cn-foot-inner">
-		<h2 id="cn-nav">Pied de page</h2>
-<!-- base theme begins / Début du thème base -->
-		<h3>Pied de page (base)</h3>
-		<h4>Valeurs implicites importantes</h4>
-		<p><strong>Nota&#160;:</strong> Les valeurs implicites sont pour le CSS base et pas pour le thème actuel.</p>
-		<dl lang="en" xml:lang="en">
-			<dt><code>cn-foot</code>&#160;:</dt>
-			<dd>
-				<ul>
-					<li><code>background: #FFF</code></li>
-				</ul>
-			</dd>
-		</dl>
-<!-- base theme ends / Fin du thème base -->
+		<h2>Footer</h2>
+<!-- include:footer -->
 	</div></div>
 	<!-- Footer ends / Fin du pied de page -->
 </div>
-<!-- One column layout ends / Fin de la mis en page d'une colonne -->
+<!-- Two column layout ends / Fin de la mis en page de deux colonnes -->
 </body>
 </html>
