@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?> 
 <html>
-	<base>../../../xhtml/includes-1col-base-xhtml-fra.html</base>
+	<base>../../../xhtml/includes-1col-base-xhtml-fra-eng.html</base>
 	<head>
 		<css>
 			<base>inc/css-theme-base-xhtml.inc</base>
@@ -9,8 +9,8 @@
 		<params />
 	</head>
 	<body>
-		<header>inc/header-theme-base-xhtml-fra.inc</header>
-		<content>inc/content-theme-base-xhtml-fra.inc</content>
+		<header>inc/header-theme-base-xhtml-fra-eng.inc</header>
+		<content>inc/content-theme-base-xhtml-fra-eng.inc</content>
 		<leftcol>
 			<prenav/>
 			<nav/>
@@ -21,6 +21,6 @@
 			<nav/>
 			<postnav/>
 		</rightcol>
-		<footer>inc/footer-theme-base-xhtml-fra.inc</footer>
+		<footer>inc/footer-theme-base-xhtml-fra-eng.inc</footer>
 	</body>
 </html>
