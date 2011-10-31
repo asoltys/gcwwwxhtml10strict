@@ -1,3 +1,5 @@
 <!-- Theme begins / Début du thème -->
-		<h2>Header (Simple)</h2>
+		<div id="cn-head-base">
+			<h2>Header (Base)</h2>
+		</div>
 <!-- Theme ends / Fin du thème -->

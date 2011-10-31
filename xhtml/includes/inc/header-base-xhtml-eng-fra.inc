@@ -1,3 +1,5 @@
 <!-- Theme begins / Début du thème -->
-		<h2>Header (Simple) / <span lang="fr" xml:lang="fr">En-tête (Simple)</span></h2>
+		<div id="cn-head-base">
+			<h2>Header (Base) / <span lang="fr" xml:lang="fr">En-tête (Base)</span></h2>
+		</div>
 <!-- Theme ends / Fin du thème -->

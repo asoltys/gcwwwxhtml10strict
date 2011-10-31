@@ -1,3 +1,5 @@
 <!-- Theme begins / Début du thème -->
-		<h3>Pied de page (Simple)</h3>
+		<div id="cn-foot-base">
+			<h3>Pied de page (Base)</h3>
+		</div>
 <!-- Theme ends / Fin du thème -->

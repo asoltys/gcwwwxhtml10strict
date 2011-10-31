@@ -1,3 +1,5 @@
 <!-- Theme begins / Début du thème -->
-		<h3>Pied de page (Simple) / <span lang="en" xml:lang="en">Footer (Simple)</span></h3>
+		<div id="cn-foot-base">
+			<h3>Pied de page (Base) / <span lang="en" xml:lang="en">Footer (Base)</span></h3>
+		</div>
 <!-- Theme ends / Fin du thème -->
