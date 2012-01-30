@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<html>
+	<base>../../../../xhtml/includes/includes-2col-rightnav-navdroite-base-xhtml-eng.html</base>
+	<head>
+		<css>
+			<base>../inc/css-theme-base-fixed-grids-xhtml.inc</base>
+		</css>
+		<params/>
+	</head>
+	<body>
+		<header>../inc/header-theme-base-fixed-grids-xhtml-eng.inc</header>
+		<content>../inc/content-theme-base-fixed-grids-xhtml-eng.inc</content>
+		<leftcol>
+			<prenav/>
+			<nav/>
+			<postnav/>
+		</leftcol>
+		<rightcol>
+			<prenav/>
+			<nav>../inc/primary-nav-theme-base-fixed-grids-xhtml-eng.inc</nav>
+			<postnav/>
+		</rightcol>
+		<footer>../inc/footer-theme-base-fixed-grids-xhtml-eng.inc</footer>
+	</body>
+</html>
